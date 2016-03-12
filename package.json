@@ -1,7 +1,7 @@
 {
-  "name": "ss16-gave-app",
+  "name": "react-starter-project",
   "version": "1.0.0",
-  "description": "Buddy system gift suggestion platform",
+  "description": "React Starter Project",
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/staticshowdown/ss16-gave-app"
+    "url": "https://github.com/daniil/react-starter-project.git"
   },
   "keywords": [
     "react",
@@ -18,7 +18,7 @@
     "babel",
     "webpack"
   ],
-  "author": "Daniil Molodkov, Aadhi Vive",
+  "author": "Daniil Molodkov",
   "license": "MIT",
   "dependencies": {
     "react": "^0.14.5",
@@ -40,6 +40,7 @@
     "eslint": "^0.21.2",
     "eslint-plugin-react": "^2.3.0",
     "extract-text-webpack-plugin": "^1.0.1",
+    "html-webpack-plugin": "^2.10.0",
     "node-sass": "^3.4.2",
     "normalize.css": "^3.0.3",
     "react-redux": "^4.1.1",

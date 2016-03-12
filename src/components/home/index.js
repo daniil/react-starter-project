@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { bootstrapApp } from 'actions/app-actions';
+import styles from './styles.scss';
 
 class Home extends Component {
   componentDidMount() {
@@ -12,7 +13,7 @@ class Home extends Component {
     const { app } = this.props;
 
     return (
-      <p>Home</p>
+      <p className={styles.homeText}>Home Route</p>
     );
   }
 }

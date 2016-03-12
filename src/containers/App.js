@@ -5,7 +5,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <h1>GaveApp</h1>
+        <h1>React Starter Project</h1>
         <div>
           {this.props.children}
         </div>
